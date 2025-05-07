@@ -60,7 +60,7 @@
 - Use **GUI** for general tasks, file browsing, design, and beginner-friendly environments.
 
 
-
+---
 # 🌐 What is Node.js?
 
 Node.js is a **runtime environment** that allows you to run **JavaScript on the server-side**. Built on **Google Chrome’s V8 JavaScript engine**, Node.js enables developers to create scalable and high-performance applications using JavaScript outside of the browser.
