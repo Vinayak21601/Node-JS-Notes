@@ -144,3 +144,72 @@ Used in full-stack development for shopping carts, product pages, and backend lo
 - Massive ecosystem (npm)
 - High performance and scalability
 - Ideal for real-time, data-intensive applications
+
+
+
+
+
+# 📦 Node.js Built-in Modules (Core Modules)
+
+> These modules are part of the Node.js runtime and do not require separate installation.  
+> You can import them using `require('module-name')` or `import` in ES Modules.
+
+---
+
+## 🔧 System Modules
+
+| Module Name       | Description |
+|-------------------|-------------|
+| `assert`          | Provides a set of assertion tests. |
+| `buffer`          | Provides operations to handle binary data. |
+| `child_process`   | Used to spawn subprocesses. |
+| `cluster`         | Allows easy creation of child processes that all share server ports. |
+| `console`         | Used to print to stdout and stderr. |
+| `constants`       | Contains system-level constants. |
+| `crypto`          | Provides cryptographic functionalities like hashing, encryption. |
+| `dns`             | Used to do DNS lookups and name resolution. |
+| `domain` *(deprecated)* | Provides a way to handle multiple different I/O operations as a single group. |
+| `events`          | Enables working with events via `EventEmitter`. |
+| `fs`              | File system-related functionality (read/write files, etc). |
+| `http`            | Creates HTTP server and handles HTTP requests. |
+| `http2`           | Implements HTTP/2 protocol. |
+| `https`           | HTTPS server functionality. |
+| `inspector`       | Debugging interface for Node.js via Chrome DevTools. |
+| `module`          | Internal module handling system. |
+| `net`             | Provides asynchronous network APIs. |
+| `os`              | Provides operating system-related utility methods. |
+| `path`            | Utilities for file and directory paths. |
+| `perf_hooks`      | Performance measurement APIs. |
+| `process`         | Provides information about the current process. |
+| `punycode`        | Converts Unicode to ASCII for domain names. |
+| `querystring`     | Utilities for parsing and formatting URL query strings. |
+| `readline`        | Allows reading lines from a readable stream (like stdin). |
+| `repl`            | Provides a REPL (Read-Eval-Print Loop) implementation. |
+| `stream`          | Interfaces for streaming data. |
+| `string_decoder`  | Decodes buffer data into readable strings. |
+| `timers`          | Handles scheduling functions like `setTimeout`. |
+| `tls`             | Implements TLS and SSL protocols. |
+| `trace_events`    | Tracing APIs for diagnostic reporting. |
+| `tty`             | Provides terminal (TTY) capabilities. |
+| `url`             | Utilities for URL resolution and parsing. |
+| `util`            | Various utility functions (e.g., `promisify`). |
+| `v8`              | Access to V8 engine-specific APIs. |
+| `vm`              | Provides APIs to compile and run code in VMs. |
+| `worker_threads`  | Multithreading support for CPU-intensive operations. |
+| `zlib`            | Compression and decompression (gzip, deflate, etc). |
+
+---
+
+## ✅ Usage Example
+
+```js
+const fs = require('fs');
+const path = require('path');
+```
+
+Or using ES Modules:
+
+```js
+import fs from 'fs';
+import path from 'path';
+```
